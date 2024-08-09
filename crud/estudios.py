@@ -1,6 +1,6 @@
-#Funciones para las operaciones en la tabla estudios
 from sqlalchemy.orm import Session
-import models, schemas
+import models.estudios
+import schemas.estudios
 
 def get_estudio(db: Session, id: int):
     return db.query(models.estudios.Estudios).filter(models.estudios.Estudios.ID == id).first()
@@ -8,7 +8,7 @@ def get_estudio(db: Session, id: int):
 def get_estudios(db: Session, skip: int = 0, limit: int = 10):
     return db.query(models.estudios.Estudios).offset(skip).limit(limit).all()
 
-def create_estudio(db: Session, estudio: schemas.EstudiosCreate):
+def create_estudio(db: Session, estudio: schemas.estudios.EstudiosCreate):
     db_estudio = models.estudios.Estudios(
         Tipo=estudio.Tipo,
         Nivel_Urgencia=estudio.Nivel_Urgencia,
@@ -26,7 +26,7 @@ def create_estudio(db: Session, estudio: schemas.EstudiosCreate):
     db.refresh(db_estudio)
     return db_estudio
 
-def update_estudio(db: Session, id: int, estudio: schemas.EstudiosUpdate):
+def update_estudio(db: Session, id: int, estudio: schemas.estudios.EstudiosUpdate):
     db_estudio = db.query(models.estudios.Estudios).filter(models.estudios.Estudios.ID == id).first()
     if db_estudio:
         for var, value in vars(estudio).items():
