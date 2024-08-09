@@ -26,4 +26,3 @@ class Estudios(EstudiosBase):
 
     class Config:
         orm_mode = True
-
