@@ -3,7 +3,8 @@ from sqlalchemy import (Column,Integer,String,Text,Enum,DateTime,ForeignKey)
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from config.db import Base
-import models.estudios, models.pacientes, models.personal_medico
+import models.estudios 
+# import models.pacientes, models.personal_medico
 
 class ResultadosEstudios(Base):
     __tablename__ = "tbd_resultados_estudios"
