@@ -6,8 +6,8 @@ from decimal import Decimal
 class EstudiosBase(BaseModel):
     Tipo: str
     Nivel_Urgencia: str
-    Solicitud_ID: int
-    Consumibles_ID: Optional[int] = None
+    # Solicitud_ID: int
+    # Consumibles_ID: Optional[int] = None
     Estatus: str
     Total_Costo: Decimal
     Dirigido_A: Optional[str] = None
