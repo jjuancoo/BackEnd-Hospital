@@ -12,8 +12,8 @@ def create_estudio(db: Session, estudio: schemas.estudios.EstudiosCreate):
     db_estudio = models.estudios.Estudios(
         Tipo=estudio.Tipo,
         Nivel_Urgencia=estudio.Nivel_Urgencia,
-        Solicitud_ID=estudio.Solicitud_ID,
-        Consumibles_ID=estudio.Consumibles_ID,
+        # Solicitud_ID=estudio.Solicitud_ID,
+        # Consumibles_ID=estudio.Consumibles_ID,
         Estatus=estudio.Estatus,
         Total_Costo=estudio.Total_Costo,
         Dirigido_A=estudio.Dirigido_A,
