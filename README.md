@@ -80,8 +80,13 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
         </tr>
          <tr>
             <td>Node.js</td>
-            <td>Framework progresivo de JavaScript para construir interfaces de usuario.</td>
+            <td>Entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript.</td>
             <td> Es un entorno de ejecución para JavaScript que permite ejecutar código JavaScript fuera del navegador web, permitiendo usar JavaScript tanto en el frontend como en el backend, facilitando el desarrollo full-stack con un solo lenguaje de programación.</td>
+        </tr>
+        <tr>
+            <td>Git</td>
+            <td>sistema de control de versiones distribuido que se utiliza para gestionar y seguir los cambios en el código fuente de proyectos de software. </td>
+            <td>Git permite a los desarrolladores llevar un registro de los cambios en el código a lo largo del tiempo. Es distribuido, lo que significa que cada desarrollador tiene una copia completa del historial del proyecto en su máquina local</td>
         </tr>
     </table>
 
