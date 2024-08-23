@@ -227,6 +227,12 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
         # Asumiendo que no hay un método para verificar duplicados de 'Estudio'
         return crud.estudios.create_estudio(db=db, estudio=estudio)
 
+<h2>Ejemplo</h2>
+   <a href="https://imgbb.com/"><img src="https://i.ibb.co/gv04TSS/Captura-de-pantalla-2024-08-19-155834.png" alt="Captura-de-pantalla-2024-08-19-155834" border="0"></a>
+
+
+### ------------------------------------------------------------------------------------------------------------------------
+
         
  --> Este endpoint actualiza los datos de un resultado de estudio existente.
  
@@ -236,6 +242,14 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
         if db_estudio is None:
             raise HTTPException(status_code=404, detail="Resultado de estudio no existe, no actualizado")
         return db_estudio
+
+
+<h2>Ejemplo</h2>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/N7hbTjc/Captura-de-pantalla-2024-08-19-155934.png" alt="Captura-de-pantalla-2024-08-19-155934" border="0"></a>
+
+
+### ------------------------------------------------------------------------------------------------------------------------
+
 
         
  --> Este endpoint  Elimina un resultado de estudio específico de la base de datos, llama al método delete_estudio en la capa CRUD. Si no encuentra el resultado de estudio, lanza una excepción 404.
@@ -247,16 +261,13 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
             raise HTTPException(status_code=404, detail="Resultado de estudio no existe, no se pudo eliminar")
         return db_estudio
 
-### Instalación
+<h2>Ejemplo</h2>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/qsB0pXm/Captura-de-pantalla-2024-08-19-160022.png" alt="Captura-de-pantalla-2024-08-19-160022" border="0"></a>
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu_usuario/tu_proyecto.git
 
-# Navegar al directorio del proyecto
-cd tu_proyecto
+### ------------------------------------------------------------------------------------------------------------------------
 
-# Instalar dependencias
-npm install
+
+
 
 
