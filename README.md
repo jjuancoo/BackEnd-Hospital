@@ -177,6 +177,8 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 
 <h2>Ejemplo</h2>
 <a href="https://ibb.co/hmLY6CL"><img src="https://i.ibb.co/71jkfbj/insertar.png" alt="insertar" border="0"></a>
+<a href="https://ibb.co/nBSWy4H"><img src="https://i.ibb.co/2SBbrRD/Captura-de-pantalla-2024-08-23-123615.png" alt="Captura-de-pantalla-2024-08-23-123615" border="0"></a>
+
 
 ### ------------------------------------------------------------------------------------------------------------------------
 
@@ -197,7 +199,7 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 
 <h2>Ejemplo</h2>
 <a href="https://ibb.co/MNk22Mv"><img src="https://i.ibb.co/C0K11hc/eliminar.png" alt="eliminar" border="0"></a>
-
+<a href="https://ibb.co/6njdVTp"><img src="https://i.ibb.co/RvR5ZsM/Captura-de-pantalla-2024-08-23-123637.png" alt="Captura-de-pantalla-2024-08-23-123637" border="0"></a>
 
 ### ------------------------------------------------------------------------------------------------------------------------
 
