@@ -156,9 +156,10 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
            # Asumiendo que no hay un método para verificar duplicados de 'Estudio'
            return crud.estudios.create_estudio(db=db, estudio=estudio)
 
+
 ## Imagen de ejemplo
 
-![Descripción de la imagen](https://i.ibb.co/7Wz6g0V/your-image.png)
+           <center><a href="https://imgbb.com/"><img src="https://i.ibb.co/7Wz6g0V/your-image.png" alt="500px" border="500px" /></a><center>
 
 
 
