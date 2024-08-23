@@ -159,7 +159,7 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 
 ## Imagen de ejemplo
 
-           <center><a href="https://imgbb.com/"><img src="https://i.ibb.co/7Wz6g0V/your-image.png" alt="500px" border="500px" /></a><center>
+<center><a href="https://imgbb.com/"><img src="https://i.ibb.co/7Wz6g0V/your-image.png" alt="500px" border="500px" /></a><center>
 
 
 
