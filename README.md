@@ -232,7 +232,9 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
         return crud.estudios.create_estudio(db=db, estudio=estudio)
 
 <h2>Ejemplo</h2>
-   <a href="https://imgbb.com/"><img src="https://i.ibb.co/gv04TSS/Captura-de-pantalla-2024-08-19-155834.png" alt="Captura-de-pantalla-2024-08-19-155834" border="0"></a>
+<a href="https://ibb.co/R7s5Xhp"><img src="https://i.ibb.co/qxcZH0M/crear1.png" alt="crear1" border="0"></a>
+<a href="https://ibb.co/QQHr5kv"><img src="https://i.ibb.co/xLgJ4Yq/Captura-de-pantalla-2024-08-23-121807.png" alt="Captura-de-pantalla-2024-08-23-121807" border="0"></a>
+
 
 
 ### ------------------------------------------------------------------------------------------------------------------------
@@ -249,7 +251,8 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 
 
 <h2>Ejemplo</h2>
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/N7hbTjc/Captura-de-pantalla-2024-08-19-155934.png" alt="Captura-de-pantalla-2024-08-19-155934" border="0"></a>
+<a href="https://ibb.co/jZVZq3j"><img src="https://i.ibb.co/93w3Byd/actualizar2.png" alt="actualizar2" border="0"></a>
+<a href="https://ibb.co/ThhTxgT"><img src="https://i.ibb.co/ZTTJpMJ/Captura-de-pantalla-2024-08-23-122008.png" alt="Captura-de-pantalla-2024-08-23-122008" border="0"></a>
 
 
 ### ------------------------------------------------------------------------------------------------------------------------
@@ -266,8 +269,8 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
         return db_estudio
 
 <h2>Ejemplo</h2>
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/qsB0pXm/Captura-de-pantalla-2024-08-19-160022.png" alt="Captura-de-pantalla-2024-08-19-160022" border="0"></a>
-
+<a href="https://ibb.co/wdgnktp"><img src="https://i.ibb.co/b6m40tN/eliminar2.png" alt="eliminar2" border="0"></a>
+<a href="https://ibb.co/1TJnBDg"><img src="https://i.ibb.co/GR3JGK6/Captura-de-pantalla-2024-08-23-122142.png" alt="Captura-de-pantalla-2024-08-23-122142" border="0"></a>
 
 ### ------------------------------------------------------------------------------------------------------------------------
 
