@@ -156,6 +156,11 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
            # Asumiendo que no hay un método para verificar duplicados de 'Estudio'
            return crud.estudios.create_estudio(db=db, estudio=estudio)
 
+## Imagen de ejemplo
+
+![Descripción de la imagen](https://i.ibb.co/7Wz6g0V/your-image.png)
+
+
 
 --> Este endpoint actualiza los datos de un estudio existente, llama a la función update_estudio en la capa CRUD. Si el estudio no existe, lanza una excepción 404 Not Found.
      
