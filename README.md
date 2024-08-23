@@ -156,9 +156,9 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
            # Asumiendo que no hay un método para verificar duplicados de 'Estudio'
            return crud.estudios.create_estudio(db=db, estudio=estudio)
            
-<h1>MineCode Empresa de Software</h1>
-    <center> <a href="https://ibb.co/LJr52s3"><img src="https://i.ibb.co/mX08MP3/Captura-de-pantalla-2024-04-18-101358.png" alt="100px" border="0" /></a><center>
-<center><a href="https://imgbb.com/"><img src="https://i.ibb.co/7Wz6g0V/your-image.png" alt="500px" border="500px" /></a><center>
+<h2>Ejemplo</h2>
+    <center> <a href="https://ibb.co/LJr52s3"><img src="https://i.ibb.co/7Wz6g0V/your-image.png" alt="500px" border="0" /></a><center>
+
 
 
 
