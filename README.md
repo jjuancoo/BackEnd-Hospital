@@ -157,7 +157,9 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
            return crud.estudios.create_estudio(db=db, estudio=estudio)
            
 <h2>Ejemplo</h2>
-   <a href="https://ibb.co/ZJ4PGmV"><img src="https://i.ibb.co/VNnZJmt/Captura-de-pantalla-2024-08-19-154207.png" alt="Captura-de-pantalla-2024-08-19-154207" border="0"></a>
+ <a href="https://ibb.co/Tc7xnHQ"><img src="https://i.ibb.co/dBVw3QN/CREAR.png" alt="CREAR" border="0"></a>
+
+ <a href="https://ibb.co/QQHr5kv"><img src="https://i.ibb.co/xLgJ4Yq/Captura-de-pantalla-2024-08-23-121807.png" alt="Captura-de-pantalla-2024-08-23-121807" border="0"></a>
 
 ### ------------------------------------------------------------------------------------------------------------------------
 
@@ -174,10 +176,12 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
          return db_estudio
 
 <h2>Ejemplo</h2>
-  <a href="https://ibb.co/CvX6S3K"><img src="https://i.ibb.co/mtY0PV5/Captura-de-pantalla-2024-08-19-154922.png" alt="Captura-de-pantalla-2024-08-19-154922" border="0"></a>
-
+<a href="https://ibb.co/hmLY6CL"><img src="https://i.ibb.co/71jkfbj/insertar.png" alt="insertar" border="0"></a>
 
 ### ------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
@@ -192,7 +196,7 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 
 
 <h2>Ejemplo</h2>
-<a href="https://ibb.co/0hYH7Gf"><img src="https://i.ibb.co/GcCz65V/Captura-de-pantalla-2024-08-19-155002.png" alt="Captura-de-pantalla-2024-08-19-155002" border="0"></a>
+<a href="https://ibb.co/MNk22Mv"><img src="https://i.ibb.co/C0K11hc/eliminar.png" alt="eliminar" border="0"></a>
 
 
 ### ------------------------------------------------------------------------------------------------------------------------
