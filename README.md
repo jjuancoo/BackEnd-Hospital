@@ -9,10 +9,6 @@
 <body>  
     <h1>MineCode Empresa de Software</h1>
     <center> <a href="https://ibb.co/LJr52s3"><img src="https://i.ibb.co/mX08MP3/Captura-de-pantalla-2024-04-18-101358.png" alt="100px" border="0" /></a><center>
-    <header>
-        <h1>Minecode</h1>
-        <p>Empresa de Desarrollo de Software</p>
-    </header>
 
 
 ## 📚 Descripción del Proyecto
@@ -33,6 +29,15 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 
 ---
 
+  <h2>Información Adicional</h2>
+        <p>Además de los objetivos mencionados, el proyecto también tiene como metas:</p>
+        <ul>
+            <li>Facilitar el acceso rápido y seguro a los estudios radiológicos por parte del personal médico.</li>
+            <li>Mejorar la comunicación entre radiólogos, médicos y pacientes, mediante la integración de esta herramienta</li>
+            <li>Garantizar la privacidad y seguridad de la información médica, cumpliendo con las regulaciones y estándares de protección de datos.</li>
+            <li>Proporcionar una interfaz de usuario intuitiva y amigable, que permita una fácil navegación y uso del sistema por parte del personal médico.</li>
+        </ul>
+
 ## 👥 Colaboradores
 
 - **📄 Alexis Gomez Gaona** - *Documentador*
@@ -45,8 +50,41 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 ## 🚀 Instalación y Uso
 
 ### Requisitos Previos
-- Node.js (o la tecnología utilizada en tu proyecto)
+- Node.js
+- JavaScript
+- MYSQL
+- Vue.js
 - Git
+
+  <h1>Tecnologías utilizadas en el desarrollo del proyecto Radiología e Imagen</h1>
+    <table>
+        <tr>
+            <th>Tecnología</th>
+            <th>Descripción</th>
+            <th>Por qué se usó</th>
+        </tr>
+        <tr>
+            <td>MySQL</td>
+            <td>Sistema de gestión de bases de datos relacional.</td>
+            <td>MySQL se empleó para almacenar datos estructurados relacionados con la información de los pacientes, informes médicos, y otros datos relacionados con la práctica médica.</td>
+        </tr>
+        <tr>
+            <td>Vue.js</td>
+            <td>Framework progresivo de JavaScript para construir interfaces de usuario.</td>
+            <td>Vue.js se utilizó para desarrollar una interfaz de usuario interactiva y receptiva, permitiendo una experiencia fluida para los usuarios al interactuar con la aplicación de Radiología e Imagen.</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Lenguaje de programación utilizado tanto en el frontend como en el backend.</td>
+            <td>JavaScript es fundamental en el desarrollo de aplicaciones web modernas, se utilizó tanto en el frontend (Vue.js) como en el backend para la lógica de la aplicación y la interacción con las bases de datos.</td>
+        </tr>
+         <tr>
+            <td>Node.js</td>
+            <td>Framework progresivo de JavaScript para construir interfaces de usuario.</td>
+            <td> Es un entorno de ejecución para JavaScript que permite ejecutar código JavaScript fuera del navegador web, permitiendo usar JavaScript tanto en el frontend como en el backend, facilitando el desarrollo full-stack con un solo lenguaje de programación.</td>
+        </tr>
+    </table>
+
 
 ---
 ### Estructuras de las Tablas
