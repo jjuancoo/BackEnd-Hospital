@@ -157,7 +157,7 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
            return crud.estudios.create_estudio(db=db, estudio=estudio)
            
 <h2>Ejemplo</h2>
-    <center> <a href="https://ibb.co/LJr52s3"><img src="[https://i.ibb.co/7Wz6g0V/your-image.png](https://ibb.co/ZJ4PGmV)" alt="500px" border="0" /></a><center>
+    <center> <a href="https://ibb.co/LJr52s3"><img src="https://ibb.co/ZJ4PGmV" alt="500px" border="0" /></a><center>
 
 
 
