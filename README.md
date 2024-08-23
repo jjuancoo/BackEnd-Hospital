@@ -72,7 +72,8 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 
 ---
 ### API endpoints
-ESTUDIOS
+   ESTUDIOS
+
 --> Este endpoint devuelve una lista de estudios, Llama a la función get_estudios en la capa CRUD para obtener la lista de estudios desde la base de datos y la devuelve.
       
       @estudios.get("/estudios/", response_model=List[schemas.estudios.Estudios], tags=["Estudios"], dependencies=[Depends(Portador())])
