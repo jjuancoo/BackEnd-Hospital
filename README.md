@@ -1,5 +1,19 @@
 # 🩻 Proyecto de Radiología e Imagen
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+<center><a href="https://imgbb.com/"><img src="https://i.ibb.co/VMfcb2z/minecode-removebg-preview.png" alt="500px" border="500px" /></a><center>
+</head>
+<body>  
+    <h1>MineCode Empresa de Software</h1>
+    <center> <a href="https://ibb.co/LJr52s3"><img src="https://i.ibb.co/mX08MP3/Captura-de-pantalla-2024-04-18-101358.png" alt="100px" border="0" /></a><center>
+    <header>
+        <h1>Minecode</h1>
+        <p>Empresa de Desarrollo de Software</p>
+    </header>
+
 
 ## 📚 Descripción del Proyecto
 
