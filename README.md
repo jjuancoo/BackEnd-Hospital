@@ -37,7 +37,7 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
 ---
 ### Estructuras de las Tablas
 
- Tabla = "tbc_estudios"
+ Tabla "tbc_estudios"
  
     ID = Column(Integer, primary_key=True, autoincrement=True)
     Tipo = Column(String(50), nullable=False)
@@ -69,6 +69,55 @@ Desarrollar una **plataforma integral** que optimice la gestión y visualizació
     ), nullable=True)
     Fecha_Registro = Column(DateTime, nullable=False, default=func.now())
     Fecha_Actualizacion = Column(DateTime, nullable=True, onupdate=func.now())
+
+---
+### API endpoints
+ESTUDIOS
+--> Este endpoint devuelve una lista de estudios, Llama a la función get_estudios en la capa CRUD para obtener la lista de estudios desde la base de datos y la devuelve.
+      
+      @estudios.get("/estudios/", response_model=List[schemas.estudios.Estudios], tags=["Estudios"], dependencies=[Depends(Portador())])
+      def read_estudios(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
+          db_estudios = crud.estudios.get_estudios(db=db, skip=skip, limit=limit)
+          return db_estudios
+
+
+--> Este endpoint devuelve los detalles de un estudio específico según su ID, llama a la función get_estudio en la capa CRUD. Si el estudio no existe, lanza una excepción 404 Not Found.
+      
+       @estudios.get("/estudio/{id}", response_model=schemas.estudios.Estudios, tags=["Estudios"], dependencies=[Depends(Portador())])
+       def read_estudio(id: int, db: Session = Depends(get_db)):
+           db_estudio = crud.estudios.get_estudio(db=db, id=id)
+           if db_estudio is None:
+               raise HTTPException(status_code=404, detail="Estudio no encontrado")
+    return db_estudio
+
+
+--> Este endpoint crea un nuevo estudio en la base de datos, llama a la función create_estudio en la capa CRUD y guarda el nuevo estudio en la base de datos.
+       
+       @estudios.post("/estudio/", response_model=schemas.estudios.Estudios, tags=["Estudios"])
+       def create_estudio(estudio: schemas.estudios.EstudiosCreate, db: Session = Depends(get_db)):
+           # Asumiendo que no hay un método para verificar duplicados de 'Estudio'
+           return crud.estudios.create_estudio(db=db, estudio=estudio)
+
+
+--> Este endpoint actualiza los datos de un estudio existente, llama a la función update_estudio en la capa CRUD. Si el estudio no existe, lanza una excepción 404 Not Found.
+     
+     @estudios.put("/estudio/{id}", response_model=schemas.estudios.Estudios, tags=["Estudios"], dependencies=[Depends(Portador())])
+     def update_estudio(id: int, estudio: schemas.estudios.EstudiosUpdate, db: Session = Depends(get_db)):
+         db_estudio = crud.estudios.update_estudio(db=db, id=id, estudio=estudio)
+         if db_estudio is None:
+             raise HTTPException(status_code=404, detail="Estudio no existe, no actualizado")
+         return db_estudio
+
+
+--> Este endpoint elimina un estudio específico de la base de datos.
+       
+       @estudios.delete("/estudio/{id}", response_model=schemas.estudios.Estudios, tags=["Estudios"], dependencies=[Depends(Portador())])
+       def delete_estudio(id: int, db: Session = Depends(get_db)):
+           db_estudio = crud.estudios.delete_estudio(db=db, id=id)
+           if db_estudio is None:
+               raise HTTPException(status_code=404, detail="Estudio no existe, no se pudo eliminar")
+           return db_estudio
+
 
 
 ### Instalación
